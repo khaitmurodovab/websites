@@ -1,0 +1,78 @@
+@import url(./fonts.css);
+
+body{
+    font-family: "Inter";
+    background-color: #141414;
+}
+a{
+    text-decoration: none;
+}
+.in-image{
+    border-radius: 999px;
+    width: 88px;
+    height: 88px;
+}
+.content{
+    display: inline-block;
+    background-color:  #1F1F1F;
+    width: 384px;
+    margin-left: 330px;
+    margin-top: 174px;
+    margin-bottom: 175px;
+    border-radius: 12px;
+    margin-right: 330px;
+}
+.box{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.texts{
+    text-align: center;
+}
+.first-text{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+span{
+    font-size: 14px;
+    color: #C4F82A;
+    font-weight: 700;
+}
+.third-text{
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+.links{
+    display: inline-block;
+    padding-top: 24px;
+    padding-left: 3px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.a-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    height: 45px;
+    width: 300px;
+    transition: 0.2s;
+}
+.a-link:hover{
+    background-color: #C4F82A;
+    color: #333333;
+}
