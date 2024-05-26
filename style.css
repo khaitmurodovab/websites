@@ -2,7 +2,9 @@
 
 body{
     font-family: "Inter";
+    display: flex;
     background-color: #141414;
+    justify-content: center;
 }
 a{
     text-decoration: none;
@@ -16,11 +18,9 @@ a{
     display: inline-block;
     background-color:  #1F1F1F;
     width: 384px;
-    margin-left: 350px;
     margin-top: 174px;
     margin-bottom: 175px;
     border-radius: 12px;
-    margin-right: 330px;
 }
 .box{
     padding-top: 40px;
